@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(108,10,255);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+    margin: 15px 0px 0px 15px;
+    top: 15px;
+}
+
+.hero-img {
+    background: url("../img/Code2.jpg");
+    width: 100%;
+    height: 800px;
+    margin-top: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-text {
+    font-family: 'Arvo', serif;
+    color: #fff;
+}
+
+.hero-text-box {
+    height: 100px;
+    width: 300px;
+    background-color: rgba(130, 213, 255 .3);
+    border: 3px solid #fff;
+    border-radius: 20px;
+    position: absolute;
+    top: 530px;
+
+}
+
+.nav-list {
+    float: right;
+    height: 80px;
+    width: 300px;
+}
+
+.list-item {
+    /* display: inline-block; */
+    margin-right: 25px;
+    padding: 10px;
+    border: 3px solid black;
+    color: red;
+    float: left;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.list-item:hover {
+    background-color: coral;
+    border: 3px dashed #fff;
+    border-radius: 10%;
+}
+
+/* End of Nav */
+
+.hero-img {
+    background: url("../img/Code.jpg") no-repeat;
+    width: 100%;
+    height: 800px;
+    margin-top: 80px;
+}
+
+/* End of Main */
+
+.home-img {
+    width: 96%;
+    margin: 15px;
+}
+
+.section-box {
+    border: 3px solid rgb(255, 48, 28);
+    width: 48%;
+    float: left;
+    margin-left: 17px;
+}
+
+
+/* End of Section */
+
+.footer {
+    width: 100%;
+    height: 80px;
+    background-color: green;
+    clear: both;
+    padding: 0px;
+    clear: both;
+    text-align: center;
+}
+
+.input, .social, .copy {
+    display: inline-block;
+    width: 30%;
+    margin-top: 30px;
+}
+
+ .home-text {
+     margin: 15px;
+ }
+ .input {
+     float: left;
+     /* display: inline-block; */
+ }
+
+
+
+ .copy {
+     font-size: 22px;
+     padding-left: 40px;
+     color: #fff;
+ }
+
+ .pcopy {
+     font-family: 'Arvo', serif;
+     color: #fff;
+ }
+ .fab {
+     text-decoration: none;
+     font-size: 2em;
+ }
+
+ /* End of Index */
+
+ .container {
+     height: 800px;
+     width: 100%;
+     margin-top: 80px;
+ }
+ 
+ .about-box {
+     height: 700px;
+     width: 30%;
+     border: 3px solid #000;
+     float: left;
+     margin-left: 35px;
+ }
+
+
+ .container-img {
+     max-width: 100%;
+     /* height: auto;
+     display: block;
+     margin: auto;
+     margin-top: 25px; */
+ }
+
+ /* .container-audio {
+     display: block;
+     margin: auto;
+     margin-top: 25px;    
+} */
+
+/* .container-video {
+    margin-top: 25px;
+} */
+
+.container-box, .container-video {
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.about-box p {
+   margin: 45px; 
+}
+
+
+ /* Font Awesome Icons */
+ .fa-facebook-square {color:#3b5998;}
+ .fa-fa-twitter-sqaure {color: #00acee;}
+ .fa-instagram {color: rgb(225,48,108);}
+  
+/* Hover Effects */
+
+/* Fade */
+.hvr-fade {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    overflow: hidden;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+  }
+  .hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+    background-color: #2098D1;
+    color: white;
+  }
+
+  /* Buttons */
+  .btn1 {
+    font-family: 'Roboto', sans-serif;
+    background-color: #00acee;
+    font-size: 1em;
+    border: none;
+  }
+
+  .btn2 {
+      font-family: 'Roboto', sans-serif;
+      background-color: #000;
+      font-size: 1em;
+      border: none;
+      color: white;
+  }
+  
+
+  /* Text Boxes */
+  .txt-box1 { background-color: gray; font-family: 'Arvo', serif; font-size: 1em; border: none;}
